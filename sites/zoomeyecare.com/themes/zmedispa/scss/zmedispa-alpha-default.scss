@@ -1,0 +1,413 @@
+/* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+
+/* Include Default Variables & Mixins */
+@import "_variables.scss";
+@import "_mixins.scss";
+/* End Variables & Mixins */
+
+.front {
+  .zone-midzone-wrapper {
+    .region-midzone-first {
+      background: url(../images/meetourdoctors.png);
+      background-size: contain;
+      min-height: 280px;
+      background-repeat: no-repeat;
+      background-position: right;
+      	.block {
+      		margin: 30px 0 0 0;
+      	}
+    }
+  }
+}
+
+#region-user-second {
+  background-color: #D9B259;
+  width: initial;
+    .block {
+      .content {
+        p {
+          font-size: 16px;
+          font-weight: bold;
+          margin: 5px;
+          text-shadow: 1px 1px 1px #5D5D5D;
+        }
+      }
+    }
+}
+
+
+#zone-midzone3-wrapper {
+  .webform-client-form {
+    .webform-component--we-look-forward-to-hearing-from-you {
+      text-align: center;
+      font-size: 28px;
+      margin: 0 0 10px 0;
+    }
+    .form-actions {
+      float: right;
+      width: 50%;
+      margin: 0 0 10px 0;
+    }
+    .webform-submit {
+      width: 100%;
+      padding: 15px;
+    }
+    .webform-component--contact-info {
+      float: left;
+      width: 50%;
+        .webform-contact-phone-wrapper, .webform-contact-address-wrapper, .webform-contact-fax-wrapper, .webform-contact-email-wrapper {
+          float: left;
+          width: 50%;
+          margin: 0 0 60px 0;
+          border-bottom: none;
+
+          .webform-contact-phone-title, .webform-contact-fax-title, .webform-contact-address-title, .webform-contact-email-title {
+            font-size: 25px;
+            font-weight: bold;
+            color: #10557E;
+          }
+          .webform-contact-phone, .webform-contact-fax, .webform-contact-address, .webform-contact-email {
+            font-size: 19px;
+            color: #10557E;
+            font-style: italic;
+          }
+      }
+    }
+    .webform-component--contact-fields {
+      margin-bottom: 0;
+      input[type="text"], input[type="email"], textarea {
+        background: #e1e1e1;
+        padding: 16px;
+        width: 100%;
+      }
+      label {
+        padding: 8px 15px;
+        font-weight: 300;
+        font-size: 15px;
+    }
+    }
+    
+  }
+}
+
+//About Us
+
+.zone-content {
+  .region-sidebar-second {
+    .block-testimonial-block-1 {
+      .views-row {
+        position: relative;
+        top: -40px;
+      }
+      .views-field-field-client-picture {
+        text-align: center;
+        position: relative;
+        top: 59px;
+        width: 100%;
+          img {
+            border-radius: 62px;
+            border: 5px solid #C9C1C1;
+          }
+        }
+        .views-field-body, .views-field-field-name, .views-field-field-client-title {
+          background: #C9C1C1;
+          padding: 10px;
+      }
+        h2 {
+          text-align: center;
+          padding-top: 10px;
+       }
+    }
+  }
+}
+
+//Services
+
+.block-views-services-block {
+  .views-row {
+      width: 373px;
+      float: left;
+      margin: 0 10px;
+      height: 380px;
+    .views-field-body {
+      position: relative;
+      bottom: 32px;
+      height: 34px;
+    }
+    .views-field-title {
+      background: #000;
+      padding: 10px;
+      a {
+      color: #fff;
+      }
+    }
+  }
+}
+
+#block-block-8 {
+  width: 100%;
+    p {
+      float: right;
+  }
+}
+
+.zone-footer {
+  .region-footer-second {
+    .block { 
+      float: right;
+      margin: 0 0 15px 0;
+      font-size: 12px;
+    }
+  }
+} 
+
+.region-footer-first {
+  .region-footer-first-inner {
+      .block-block-6 {
+        display: block;
+      }
+  }
+}
+
+.block-menu-menu-footer-menu {
+  float: right;
+    .menu {
+      li {
+        float: left;
+          a {
+            color: #fff;
+          }
+      }
+    }
+  }
+
+//Menu
+
+.zone-branding {
+  .block-superfish {
+    margin: 70px 0 0 0;
+  }
+}
+
+#region-fo-second {
+  background-color: #D9B259;
+  width: auto;
+}
+
+//Locations
+
+.node-type-locations { 
+  .zone-content {
+    .region-content {
+      position: relative;
+      bottom: 70px;
+        #page-title {
+          font-size: 41px;
+        }
+      .group-left {
+        .field-item {
+        float: left;
+        text-align: left;
+        }
+      }
+      .group-right {
+        .field-type-office-hours, .field-name-field-locations {
+            padding: 0;
+            background: #DCB55A;
+            color: #fff;
+            margin: 10px 0;
+            border-radius: 3px;
+              .field-label {
+                font-weight: bold;
+                padding: 10px;
+                background: #282828;
+                border-radius: 3px 3px 0 0;
+                color: #fff;
+              }
+              .field-items {
+                  padding: 10px;
+                  font-weight: 500;
+              }
+        }
+      }
+  } 
+ }
+}
+
+//Contact
+.zone-content {
+  .block-views-clinic-locations-block {
+    .view-clinic-locations {
+      .views-row {
+          float: left;
+          width: 363px;
+          height: 410px;
+          background-color: #DCB55A;
+          padding: 20px 10px;
+          margin: 5px;
+          border-radius: 4px;
+          box-shadow: 0 0 10px #eaeaea;
+          .views-field-address {
+          text-align: center;
+          }
+          .views-field-view-node {
+          text-align: center;
+          margin: 20px 0;
+            a {
+              background: #fff;
+              padding: 10px;
+              border-radius: 2px;
+              color: #5C4611;
+              font-weight: bold;
+            }
+          }
+          .views-field-title {
+            text-align: center;
+            margin: 10px 0;
+            font-weight: bold;
+            font-size: 15px;
+          }
+      }
+
+    }
+  }
+}
+
+.node-type-locations {
+  .group-left {
+    .field-item {
+      background: #DCB55A;
+      text-align: center;
+      float: left;
+      margin: 0 10px 10px 0;
+      border-radius: 5px;
+  .field-name-field-employee-name {
+    font-weight: 400;
+    color: #fff;
+    float: left;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    background: #282828;
+      .field-item {
+      background: transparent;
+      }
+  }
+
+  .field-name-field-employee-information {
+    width: 72%;
+    float: left;
+    margin: 10px;
+    font-size: 12px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #5A5A5A;
+      .field-item {
+        background: transparent;
+      }
+    }
+  .field-name-field-employee-picture {
+    width: 25%;
+      .field-item {
+        background: transparent;
+        width: auto;
+      }
+    img {
+        border-radius: 101px;
+        border: 10px solid #fafafa;
+        box-shadow: 0px 0px 2px #545454;
+    }
+
+  }
+  }
+}
+}
+
+//Inner Location Page
+
+.node-type-locations {
+  .zone-content {
+    .region-content {
+      .group-right {
+        .field-name-field-locations-info, .field-type-office-hours {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+} 
+
+//Location Page
+
+.node-type-locations { 
+  .zone-content {
+    .region-content {
+      #page-title {
+        font-size: 41px;
+        color: #fff;
+        text-shadow: 0 0 8px #616161;
+        margin: 10px;
+      }
+      .group-right {
+        .field-type-office-hours, .field-name-field-locations-info {
+            padding: 0;
+            background: #DCB55A;
+            color: #fff;
+            margin: 10px 0;
+            border-radius: 3px;
+              .field-label {
+                font-weight: bold;
+                padding: 10px;
+                background: #282828;
+                border-radius: 3px 3px 0 0;
+                color: #fff;
+              }
+              .field-items {
+                  padding: 10px;
+                  font-weight: 500;
+              }
+        }
+      }
+  } 
+ }
+}
+
+.node-locations {
+  .group-left {
+    width: 75%;
+  }
+  .group-right {
+    width: 25%;
+  }  
+}
+
+.block-views-clinic-slideshow-block {
+  z-index: 0;
+  position: relative;
+}
+
+.zone-content {
+  #block-views-doctors-list-block {
+    .view-doctors-list {
+      .views-row {
+        .views-field-field-doctor-picture {
+          width: 16%;
+          text-align: initial;
+        }
+
+        .views-field-field-doctor-information {
+          width: 78%;
+        }
+      }
+    }
+  }
+}
+
+h1#page-title {
+  font-size: 41px;
+}
+
+#zone-user-wrapper {
+  .block-block-2 {
+    width: auto;
+    text-align: initial;
+  }
+}

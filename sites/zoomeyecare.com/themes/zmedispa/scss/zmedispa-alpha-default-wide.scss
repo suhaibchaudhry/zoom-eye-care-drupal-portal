@@ -1,0 +1,33 @@
+/* This file will hold styles that are loaded using the same media query as the wide grid. */
+
+.zone-content {
+  #block-views-doctors-list-block {
+    .view-doctors-list {
+      .views-row {
+        .views-field-field-doctor-picture {
+          width: 19%;
+          text-align: initial;
+        }
+
+        .views-field-field-doctor-information {
+          width: 78%;
+        }
+      }
+    }
+  }
+}
+
+h1#page-title {
+	font-size: 41px;
+}
+#region-user-second {
+  width: initial;
+}
+
+#zone-user-wrapper {
+  .block-block-2 {
+    width: auto;
+    text-align: initial;
+  }
+}
+

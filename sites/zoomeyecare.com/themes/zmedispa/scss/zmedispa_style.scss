@@ -1,0 +1,1069 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+/* Override Omega */
+
+/* Include Default Variables & Mixins */
+@import "_variables.scss";
+@import "_mixins.scss";
+@import "compass/css3";
+/* End Variables & Mixins */
+
+a:link, a:visited {
+  color: #10557E;
+}
+ 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+}
+
+body {
+  font-family: helvetica, "Open Sans", sans-serif;
+  font-weight: 200;
+}
+
+#zone-user {
+  #region-user-first {
+    height: 100%;
+    margin: 0 auto;
+  }
+}
+
+.html {
+  background: #fff;
+}
+
+#zone-postscript {
+  //Reset margin on zone comming from base theme
+  margin-top: 0;
+}
+
+#zone-user-wrapper {
+  background: #DCB55A;
+  line-height: 34px;
+  height: 40px;
+  z-index: 500;
+
+  .block-block-2 {
+    width: 100%;
+    text-align: center;
+    float: right;
+  }
+  
+  .block-block-1 p {
+    margin-bottom: 0;
+  }
+
+  p {
+    color: #fff;
+  }
+}
+
+#zone-preface-wrapper {
+  p, h2.block-title {
+    text-align: center;
+    color: #015383;
+  }
+
+  h2.block-title {
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: underline;
+  }
+
+  .region {
+    position: relative;
+    padding: 0 0 40px 0;
+  }
+
+  .block {
+    position: static;
+  }
+
+  div.read-more-button {
+      text-align: center;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      padding: 8px 0;
+
+      a {
+	@include overline-from-left();
+        background-color: #095480;
+        padding: 8px;
+        color: #fff; 
+      }
+  }
+}
+
+.zone-wrapper {
+  .zone-header {
+    width: 100%;
+
+    .region-header-first {
+      width: 100%;
+      margin: 0;
+
+      .region-header-first-inner {
+        position: relative;
+
+        #block-multiblock-1 {
+          position: absolute;
+          bottom: 0;
+          z-index: 1;
+          margin: 0 auto;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+/*Main Menu*/
+
+.zone-branding {
+  .block-superfish {
+    margin: 80px 0 0 0;
+
+     .menu {
+        float: right;
+
+        li {
+          background: transparent;
+          a {
+            border: none;
+          }
+          a:hover, a:focus {
+            color: #fff;
+            background: #073A66;
+            border-radius: 3px;
+          }
+        }
+    }
+  }
+}
+
+.zone-postscript-wrapper {
+  background: #dcb65b;
+    .block-front-page-testimonials-block {
+      //margin: 20px 0 0 0;
+      h2 {
+        color: #005382;
+        font-size: 50px;
+        }
+      .views-row {
+        width: 50%;
+        float: left;
+        .views-field-field-name {
+          font-size: 18px;
+          color: #005382;
+          font-weight: 400;
+        }
+        .views-field-field-client-title {
+          font-style: italic;
+          font-size: 18px;
+          color: #000000;
+          text-transform: lowercase;
+        }
+        .views-field-body {
+          float: left;
+          padding: 15px;
+          color: #fff;
+          background: #005382;
+          border-radius: 4px;
+          margin: 10px 20px 10px 0;
+      }
+    }
+  }
+}
+
+//Footer
+
+.region-footer-first {
+  .region-footer-first-inner {
+    text-align: center;
+      .block-block-6 {
+        display: inline-block;
+      }
+  }
+}
+
+.region-footer-second-inner {
+  text-align: center;
+    .block-menu-menu-footer-menu {
+      display: inline-block;
+    }
+}
+
+.zone-footer-wrapper {
+  background: #000;
+}
+
+.block-menu-menu-footer-menu {
+  float: none;
+    .menu {
+      li {
+        float: left;
+          a {
+            color: #fff;
+          }
+      }
+    }
+  }
+//Images should be moved to theme folder unless cpn is used.
+.franchise-icon {
+  background: url(/sites/zmedispa.com/files/franchise-icon.png);  
+}
+
+.services-icon {
+  background: url(/sites/zmedispa.com/files/services-icon.png);
+}
+
+.aboutus-icon {
+  background: url(/sites/zmedispa.com/files/aboutus-icon.png);  
+}
+
+.franchise-icon, .services-icon, .aboutus-icon {
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  height: 160px;
+  text-align: center;
+  background-position: center;
+  margin: 10px 0;
+}
+
+
+.zone-midzone3-wrapper {
+  background: #c9c1c1;
+    h2 {
+      font-size: 50px;
+  }
+}
+
+
+
+
+.front {
+  .zone-midzone-wrapper {
+    margin-top: 20px;
+    background: #ced6e1;
+    .region {
+	padding-bottom: 20px;
+    }
+    .block-block {
+      h2 {
+        color: #005382;
+        font-size: 50px;
+      }
+    }
+  }
+}
+
+.learn-more-about-doctors {
+  a {
+    @include overline-from-left();
+    background-color: #095480;
+    padding: 8px 60px;
+    float: left;
+    color: #fff;
+  }
+}
+
+.zone-preface-wrapper, .zone-midzone3-wrapper {
+  .block {
+    h2 {
+      text-align: center;
+      color: #10557E;
+      margin: 0;
+    }
+  }
+}
+
+.zone-footer {
+  .region-footer-second {
+    .block { 
+      text-align: center;
+      float: none;
+      margin: 0 0 15px 0;
+      font-size: 12px;
+    }
+  }
+  p {
+    color: #fff;
+  }
+}
+
+.section-footer {
+  .block-menu-footer-menu
+    ul.menu {
+      li {
+        padding: 0 0 0 25px;
+    }
+  }
+}
+
+.section-footer {
+  .block-menu-footer-menu
+    ul.menu {
+      padding: 0;
+  }
+}
+
+#zone-header2-wrapper {
+  .zone-header2 {
+    position: relative;
+    .region {
+      position: absolute;
+      bottom: 0px;
+    }
+  }
+}
+
+h1#page-title {
+      font-size: 25px;
+      color: #fff;
+      text-shadow: 0 0 8px #616161;
+}
+
+//Testimonials
+
+.view-id-testimonial_page_block {
+  .views-row {
+      text-align: center;
+      border-bottom: 1px solid #2698F2;
+      margin: 30px 0 30px 0;
+      float: left;
+      width: 100%;
+    .field-name-field-name {
+      font-weight: bold;
+      color: #10557E;
+    }
+    .field-name-field-client-picture {
+      margin: 0 0 16px 0;
+      img {
+        border-radius: 50px;
+      }
+    }
+      h2 {
+        display: none;
+      }
+  }
+}
+
+//Should be moved in to the CPN of that particular node, images should be kept in files how it is now.
+
+.node-type-locations {
+  .zone-content {
+    .region-content {
+      bottom: 0 !important;
+      margin-top: 20px;
+    }
+  }
+}
+
+.page-node-42 {
+  .zone-content {
+   .region-content {
+      position: relative;
+   }
+  }  
+  .zone-header2-wrapper {
+    background: url(/sites/zmedispa.com/files/immigration-physicals-vaccinations.jpg);
+    width: 100%;
+    background-position: center;
+
+    .zone {
+      height: 300px;
+    }
+  }
+}
+
+.page-node-15 {
+  .zone-content {
+   .region-content {
+      position: relative;
+   }
+  }  
+  .zone-header2-wrapper {
+    background: url(/sites/zmedispa.com/files/cosmetic-procedures-slide.jpg);
+    width: 100%;
+    background-position: center;
+
+    .zone {
+      height: 300px;
+    }
+  }
+}
+
+.page-node-14 {
+  .zone-content {
+   .region-content {
+      position: relative;
+   }
+  }  
+  .zone-header2-wrapper {
+    background: url(/sites/zmedispa.com/files/low-testosterone-slide.jpg);
+    width: 100%;
+    background-position: center;
+
+    .zone {
+      height: 300px;
+    }
+  }
+}
+
+
+.page-node-13 {
+  .zone-content {
+   .region-content {
+      position: relative;
+   }
+  }  
+  .zone-header2-wrapper {
+    background: url(/sites/zmedispa.com/files/weight-mana-banner.jpg);
+    width: 100%;
+    background-position: center;
+
+    .zone {
+      height: 300px;
+    }
+  }
+}
+
+.page-node-12 {
+  .zone-content {
+   .region-content {
+      position: relative;
+   }
+  }  
+  .zone-header2-wrapper {
+    background: url(/sites/zmedispa.com/files/telemedicine-slide.jpg);
+    width: 100%;
+    background-position: center;
+
+    .zone {
+      height: 300px;
+    }
+  }
+}
+
+.page-node-11 {
+  .zone-content {
+   .region-content {
+      position: relative;
+   }
+  }  
+  .zone-header2-wrapper {
+    background: url(/sites/zmedispa.com/files/wellness-slide.jpg);
+    width: 100%;
+    background-position: center;
+
+    .zone {
+      height: 300px;
+    }
+  }
+}
+
+.page-node-10 {
+  .zone-content {
+   .region-content {
+      position: relative;
+   }
+  }  
+  .zone-header2-wrapper {
+    background: url(/sites/zmedispa.com/files/menopause-slide.jpg);
+    width: 100%;
+    background-position: center;
+
+    .zone {
+      height: 300px;
+    }
+  }
+}
+
+.page-node-9 {
+  .zone-content {
+   .region-content {
+      position: relative;
+   }
+  }  
+  .zone-header2-wrapper {
+    background: url(/sites/zmedispa.com/files/family-practice-slide.jpg);
+    width: 100%;
+    background-position: center;
+
+    .zone {
+      height: 300px;
+    }
+  }
+}
+
+.node-type-page {
+  .zone-content {
+   .region-content {
+      position: relative;
+   }
+  }  
+  .zone-header2-wrapper {
+    background: url(/sites/zmedispa.com/files/about-us-slide.jpg);
+    width: 100%;
+    background-position: center;
+
+    .zone {
+      height: 300px;
+    }
+  }
+}
+
+
+
+.page-node-6 {
+  .zone-content {
+   .region-content {
+      position: relative;
+   }
+  }  
+  .zone-header2-wrapper {
+    background: url(/sites/zmedispa.com/files/about-us-slide.jpg);
+    width: 100%;
+    background-position: center;
+
+    .zone {
+      height: 300px;
+    }
+  }
+}
+
+.page-node-8 {
+  .zone-content {
+   .region-content {
+      position: relative;
+   }
+  }  
+  .zone-header2-wrapper {
+    background: url(/sites/zmedispa.com/files/about-us-slide.jpg);
+    width: 100%;
+    background-position: center;
+
+    .zone {
+      height: 300px;
+    }
+  }
+}
+
+.page-testimonials {
+  .zone-content {
+   .region-content {
+      position: relative;
+   }
+  }  
+  .zone-header2-wrapper {
+    background: url(/sites/zmedispa.com/files/about-us-slide.jpg);
+    height: 300px;
+    width: 100%;
+    background-position: center;
+
+    .zone {
+      height: 300px;
+    }
+  }
+}
+
+
+#region-content {
+  .field-name-body {
+    h2.content-subtitle {
+      font-weight: bold;
+      font-size: 20px;
+    }
+  }
+}
+
+#region-sidebar-second {
+  margin-bottom: 30px;
+
+  #block-views-testimonial-block-1 {
+    h2.block-title {
+      text-transform: lowercase;
+      font-size: 22px;
+      color: #015383;
+    }
+
+    .views-row {
+      .views-field-field-name {
+        padding-bottom: 0px;
+        color: #015383;
+        font-weight: bold;
+      }
+
+      .views-field-field-client-title {
+        padding-top: 0px;
+        font-style: italic;
+        color: #015383;
+      }
+
+      .views-field-body {
+        padding-top: 60px;
+
+        .field-content {
+          border-bottom: 3px solid #015383;
+
+          p {
+            color: #fff;
+            font-size: 12px;
+            line-height: 1.5;
+          }
+        }
+      }
+    }
+  }
+}
+
+#region-midzone3-first {
+  #webform-client-form-7 {
+    .webform-component--sub-title {
+      p {
+        text-align: center;
+        font-size: 22px;
+        text-transform: lowercase;
+      }
+    }
+  }
+}
+
+#zone-midzone3-wrapper {
+  .webform-client-form {
+    .webform-component--we-look-forward-to-hearing-from-you {
+      text-align: center;
+      font-size: 28px;
+      margin: 0 0 10px 0;
+    }
+    .form-actions {
+      float: right;
+      width: 100%;
+      margin: 0 0 10px 0;
+    }
+    .webform-submit {
+      width: 100%;
+      padding: 15px;
+    }
+    .webform-component--contact-info {
+          text-align: center;
+          width: 100%;
+        .webform-contact-phone-wrapper, .webform-contact-address-wrapper, .webform-contact-fax-wrapper, .webform-contact-email-wrapper {
+          float: left;
+          width: 100%;
+          margin: 0 0 20px 0;
+          border-bottom: 2px dotted #10557E;
+
+          .webform-contact-phone-title, .webform-contact-fax-title, .webform-contact-address-title, .webform-contact-email-title {
+            font-size: 25px;
+            font-weight: bold;
+            color: #10557E;
+          }
+          .webform-contact-phone, .webform-contact-fax, .webform-contact-address, .webform-contact-email {
+            font-size: 19px;
+            color: #10557E;
+            font-style: italic;
+            margin: 0 0 15px 0;
+          }
+      }
+    }
+    .webform-component--contact-fields {
+      margin-bottom: 0;
+      input[type="text"], input[type="email"], textarea {
+        background: #e1e1e1;
+        padding: 16px;
+        width: 100%;
+      }
+      label {
+        padding: 8px 15px;
+        font-weight: 300;
+        font-size: 15px;
+    }
+    }
+    
+  }
+}
+
+//About Us
+
+.zone-content {
+  .region-sidebar-second {
+    .block-testimonial-block-1 {
+      .views-row {
+        position: relative;
+        top: -40px;
+      }
+      .views-field-field-client-picture {
+        text-align: center;
+        position: relative;
+        width: 100%;
+        top: 59px;
+          img {
+            border-radius: 62px;
+            border: 5px solid #C9C1C1;
+          }
+        }
+        .views-field-body, .views-field-field-name, .views-field-field-client-title {
+          background: #C9C1C1;
+          padding: 10px;
+      }
+        h2 {
+          text-align: center;
+          padding-top: 10px;
+       }
+    }
+  }
+}
+
+//Services
+
+.block-views-services-block {
+  .views-row {
+    .views-field-view-node {
+      margin: 10px 0;
+      text-align: center;
+      a {
+        background: #10557E;
+        padding: 10px;
+        border-radius: 2px;
+        color: #fff;
+        display: block;
+      }    
+    }
+    .views-field-field-service-image {
+      img {
+        width: 100%;
+      }
+    }
+      width: 100%;
+      float: left;
+      margin: 0;
+      height: auto;
+    .views-field-body {
+      position: relative;
+      bottom: 32px;
+      height: 47px;
+    }
+    .views-field-field-teaser {
+      height: 36px;
+      margin: 10px 0 14px;
+    }
+    .views-field-title {
+      background: #000;
+      padding: 10px;
+      a {
+      color: #fff;
+      }
+    }
+  }
+}
+
+//Menu
+
+.zone-branding { 
+  .region-menu {
+    margin: 10px;
+      .block-superfish {
+        li {
+          .sf-sub-indicator {
+            top: 0.9em;
+          }
+        }
+        select {
+          width: 100%;
+          padding: 15px;
+      }
+    }
+  }
+}
+
+.region-menu {
+  .block-superfish {
+    .menuparent {
+      ul {
+        background: #eaeaea;
+        padding: 0 !important;
+        border-radius: 2px;
+          li {
+            margin: 0;
+          }
+      }
+    }
+  }
+}
+
+.zone-branding {
+  .block-superfish {
+    margin: 40px 0 0 0;
+  }
+}
+
+#region-user-second {
+  background-color: #DCB55A;
+  width: 100%;
+  
+    .block {
+      .content {
+        p {
+          font-size: 10px;
+        }
+      }
+    }
+}
+
+//Location Page
+
+.node-type-locations {
+  .group-left {
+    .field-item {
+      background: #DCB55A;
+      text-align: center;
+      float: left;
+      margin: 0 0 10px 0;
+      width: 99%;
+  .field-name-field-employee-name {
+    font-weight: 400;
+    color: #fff;
+    float: left;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    background: #282828;
+      .field-item {
+      margin: 10px;
+      background: transparent;
+      }
+  }
+
+  .field-name-field-employee-information {
+    width: 100%;
+    float: left;
+    font-size: 12px;
+    color: #fff;
+    margin: 0 0 10px 0;
+    text-shadow: 1px 1px 1px #5A5A5A;
+    border-radius: 0;
+      .field-item {
+        background: transparent;
+      }
+    }
+  .field-name-field-employee-picture {
+    width: 100%;
+      .field-item {
+        background: transparent;
+        width: 100%;
+      }
+    img {
+        margin: 10px;
+        border-radius: 101px;
+        border: 10px solid #fafafa;
+        box-shadow: 0px 0px 2px #545454;
+    }
+
+  }
+  }
+}
+}
+
+.node-type-locations { 
+  .zone-content {
+    .region-content {
+    position: relative;
+    bottom: 0;
+      #page-title {
+        font-size: 25px;
+        color: #000;
+        text-shadow: 0 0 8px #C2C2C2;
+        margin: 10px;
+      }
+      .group-left {
+        .field-item {
+        }
+      }
+      .group-right {
+        .field-type-office-hours, .field-name-field-locations-info {
+          .region {
+            margin: 0;
+          }
+            padding: 0;
+            background: #DCB55A;
+            color: #fff;
+            margin: 10px 0;
+            border-radius: 3px;
+              .field-label {
+                font-weight: bold;
+                padding: 10px;
+                background: #282828;
+                border-radius: 3px 3px 0 0;
+                color: #fff;
+              }
+              .field-items {
+                  text-shadow: 1px 1px 1px #5A5A5A;
+                  padding: 10px;
+                  font-weight: 500;
+              }
+        }
+      }
+  } 
+ }
+}
+
+.node-locations {
+  .group-left {
+    width: 100%;
+  }
+  .group-right {
+    width: 100%;
+  }
+}
+
+.block-views-clinic-slideshow-block {
+  z-index: 0;
+  position: relative;
+
+  .views-row {
+    a.active {
+      width: 100%;
+      display: block;
+      text-align: center;
+    }
+  }
+}
+
+//Contact Us
+
+.zone-content {
+  #block-views-doctors-list-block {
+    .view-doctors-list {
+      margin-top: 40px;
+
+      .views-row {
+        background: #DCB55A;
+        margin: 0 10px 40px 0;
+        border-radius: 5px;
+        float: left;
+        text-align: left;
+
+        .views-field-field-doctor-name {
+          font-weight: 400;
+          color: #fff;
+          float: left;
+          width: 100%;
+          border-radius: 5px 5px 0 0;
+          background: #282828;
+
+          .field-content {
+            margin: 10px;
+          }
+        }
+
+        .views-field-field-doctor-picture {
+          width: 100%;
+          text-align: center;
+          float: left;
+
+          img {
+            margin: 10px;
+            border-radius: 101px;
+            border: 10px solid #fafafa;
+            box-shadow: 0px 0px 2px #545454;
+          }
+        }
+
+        .views-field-field-doctor-information {
+          width: auto;
+          float: right;
+          margin: 10px;
+          font-size: 12px;
+          color: #fff;
+          text-shadow: 1px 1px 1px #5A5A5A;
+        }
+      }
+    }
+  }
+
+  .block-views-clinic-locations-block {
+    .view-clinic-locations {
+      .views-row {
+          float: left;
+          width: 100%;
+          height: 410px;
+          background-color: #DCB55A;
+          padding: 46px 0;
+          margin: 5px 0;
+          border-radius: 4px;
+          box-shadow: 0 0 10px #eaeaea;
+          .views-field-address {
+          text-align: center;
+          }
+          .views-field-street, .views-field-postal-code, .views-field-phone, .views-field-fax, .views-field-email, .views-field-address {
+          text-align: center;
+          }
+          .views-field-view-node {
+          text-align: center;
+          margin: 20px 0;
+            a {
+              background: #fff;
+              padding: 10px;
+              border-radius: 2px;
+              color: #5C4611;
+              font-weight: bold;
+            }
+          }
+          .views-field-title {
+            text-align: center;
+            margin: 10px 0;
+            font-weight: bold;
+            font-size: 15px;
+          }
+          .views-field-field-main-clinic-image {
+              width: 100%;
+              text-align: center;
+              img {
+                  border-radius: 101px;
+                  border: 10px solid #FFFFFF;
+                  box-shadow: 0px 0px 1px #474747;
+
+              }
+        }
+      }
+
+    }
+  }
+}
+//Franchise
+
+#zone-postscript {
+  margin-bottom: 10px;
+    .block-block-11 {
+      padding: 15px 0;
+        p {
+          text-align: center;
+          color: #fff;
+          margin: 0;
+        }
+  }
+}
+
+.block-webform-client-block-20 {
+  background: #c9c1c1;
+  padding: 10px;
+  margin: 10px 0;
+    .form-textarea-wrapper {
+    width: 100%;
+    }
+    h2 {
+      color: #10557E;
+      font-size: 22px;
+      text-align: center;
+    }
+    label {
+      padding: 12px 12px;
+      font-weight: 300;
+    }
+    input{
+      background: #e1e1e1;
+      padding: 20px;
+      width: 100%;
+  }
+}

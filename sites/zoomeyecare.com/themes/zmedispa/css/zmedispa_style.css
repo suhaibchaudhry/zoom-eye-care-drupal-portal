@@ -1,0 +1,703 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+/* Override Omega */
+/* Include Default Variables & Mixins */
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,300,600,800);
+@import url(//fonts.googleapis.com/css?family=Gentium+Basic:400,700);
+/* Overline From Left */
+/* End Variables & Mixins */
+a:link, a:visited {
+  color: #10557E; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500; }
+
+body {
+  font-family: helvetica, "Open Sans", sans-serif;
+  font-weight: 200; }
+
+#zone-user #region-user-first {
+  height: 100%;
+  margin: 0 auto; }
+
+.html {
+  background: #fff; }
+
+#zone-postscript {
+  margin-top: 0; }
+
+#zone-user-wrapper {
+  background: #DCB55A;
+  line-height: 34px;
+  height: 40px;
+  z-index: 500; }
+  #zone-user-wrapper .block-block-2 {
+    width: 100%;
+    text-align: center;
+    float: right; }
+  #zone-user-wrapper .block-block-1 p {
+    margin-bottom: 0; }
+  #zone-user-wrapper p {
+    color: #fff; }
+
+#zone-preface-wrapper p, #zone-preface-wrapper h2.block-title {
+  text-align: center;
+  color: #015383; }
+#zone-preface-wrapper h2.block-title {
+  font-weight: bold;
+  font-size: 25px;
+  text-decoration: underline; }
+#zone-preface-wrapper .region {
+  position: relative;
+  padding: 0 0 40px 0; }
+#zone-preface-wrapper .block {
+  position: static; }
+#zone-preface-wrapper div.read-more-button {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 8px 0; }
+  #zone-preface-wrapper div.read-more-button a {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    overflow: hidden;
+    background-color: #095480;
+    padding: 8px;
+    color: #fff; }
+    #zone-preface-wrapper div.read-more-button a:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      left: 0;
+      right: 100%;
+      top: 0;
+      background: #2098D1;
+      height: 4px;
+      -webkit-transition-property: right;
+      transition-property: right;
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-timing-function: ease-out;
+      transition-timing-function: ease-out; }
+    #zone-preface-wrapper div.read-more-button a:hover:before, #zone-preface-wrapper div.read-more-button a:focus:before, #zone-preface-wrapper div.read-more-button a:active:before {
+      right: 0; }
+
+.zone-wrapper .zone-header {
+  width: 100%; }
+  .zone-wrapper .zone-header .region-header-first {
+    width: 100%;
+    margin: 0; }
+    .zone-wrapper .zone-header .region-header-first .region-header-first-inner {
+      position: relative; }
+      .zone-wrapper .zone-header .region-header-first .region-header-first-inner #block-multiblock-1 {
+        position: absolute;
+        bottom: 0;
+        z-index: 1;
+        margin: 0 auto;
+        width: 100%; }
+
+/*Main Menu*/
+.zone-branding .block-superfish {
+  margin: 80px 0 0 0; }
+  .zone-branding .block-superfish .menu {
+    float: right; }
+    .zone-branding .block-superfish .menu li {
+      background: transparent; }
+      .zone-branding .block-superfish .menu li a {
+        border: none; }
+      .zone-branding .block-superfish .menu li a:hover, .zone-branding .block-superfish .menu li a:focus {
+        color: #fff;
+        background: #073A66;
+        border-radius: 3px; }
+
+.zone-postscript-wrapper {
+  background: #dcb65b; }
+  .zone-postscript-wrapper .block-front-page-testimonials-block h2 {
+    color: #005382;
+    font-size: 50px; }
+  .zone-postscript-wrapper .block-front-page-testimonials-block .views-row {
+    width: 50%;
+    float: left; }
+    .zone-postscript-wrapper .block-front-page-testimonials-block .views-row .views-field-field-name {
+      font-size: 18px;
+      color: #005382;
+      font-weight: 400; }
+    .zone-postscript-wrapper .block-front-page-testimonials-block .views-row .views-field-field-client-title {
+      font-style: italic;
+      font-size: 18px;
+      color: #000000;
+      text-transform: lowercase; }
+    .zone-postscript-wrapper .block-front-page-testimonials-block .views-row .views-field-body {
+      float: left;
+      padding: 15px;
+      color: #fff;
+      background: #005382;
+      border-radius: 4px;
+      margin: 10px 20px 10px 0; }
+
+.region-footer-first .region-footer-first-inner {
+  text-align: center; }
+  .region-footer-first .region-footer-first-inner .block-block-6 {
+    display: inline-block; }
+
+.region-footer-second-inner {
+  text-align: center; }
+  .region-footer-second-inner .block-menu-menu-footer-menu {
+    display: inline-block; }
+
+.zone-footer-wrapper {
+  background: #000; }
+
+.block-menu-menu-footer-menu {
+  float: none; }
+  .block-menu-menu-footer-menu .menu li {
+    float: left; }
+    .block-menu-menu-footer-menu .menu li a {
+      color: #fff; }
+
+.franchise-icon {
+  background: url(/sites/zmedispa.com/files/franchise-icon.png); }
+
+.services-icon {
+  background: url(/sites/zmedispa.com/files/services-icon.png); }
+
+.aboutus-icon {
+  background: url(/sites/zmedispa.com/files/aboutus-icon.png); }
+
+.franchise-icon, .services-icon, .aboutus-icon {
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  height: 160px;
+  text-align: center;
+  background-position: center;
+  margin: 10px 0; }
+
+.zone-midzone3-wrapper {
+  background: #c9c1c1; }
+  .zone-midzone3-wrapper h2 {
+    font-size: 50px; }
+
+.front .zone-midzone-wrapper {
+  margin-top: 20px;
+  background: #ced6e1; }
+  .front .zone-midzone-wrapper .region {
+    padding-bottom: 20px; }
+  .front .zone-midzone-wrapper .block-block h2 {
+    color: #005382;
+    font-size: 50px; }
+
+.learn-more-about-doctors a {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+  background-color: #095480;
+  padding: 8px 60px;
+  float: left;
+  color: #fff; }
+  .learn-more-about-doctors a:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    top: 0;
+    background: #2098D1;
+    height: 4px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out; }
+  .learn-more-about-doctors a:hover:before, .learn-more-about-doctors a:focus:before, .learn-more-about-doctors a:active:before {
+    right: 0; }
+
+.zone-preface-wrapper .block h2, .zone-midzone3-wrapper .block h2 {
+  text-align: center;
+  color: #10557E;
+  margin: 0; }
+
+.zone-footer .region-footer-second .block {
+  text-align: center;
+  float: none;
+  margin: 0 0 15px 0;
+  font-size: 12px; }
+.zone-footer p {
+  color: #fff; }
+
+.section-footer .block-menu-footer-menu
+ul.menu li {
+  padding: 0 0 0 25px; }
+
+.section-footer .block-menu-footer-menu
+ul.menu {
+  padding: 0; }
+
+#zone-header2-wrapper .zone-header2 {
+  position: relative; }
+  #zone-header2-wrapper .zone-header2 .region {
+    position: absolute;
+    bottom: 0px; }
+
+h1#page-title {
+  font-size: 25px;
+  color: #fff;
+  text-shadow: 0 0 8px #616161; }
+
+.view-id-testimonial_page_block .views-row {
+  text-align: center;
+  border-bottom: 1px solid #2698F2;
+  margin: 30px 0 30px 0;
+  float: left;
+  width: 100%; }
+  .view-id-testimonial_page_block .views-row .field-name-field-name {
+    font-weight: bold;
+    color: #10557E; }
+  .view-id-testimonial_page_block .views-row .field-name-field-client-picture {
+    margin: 0 0 16px 0; }
+    .view-id-testimonial_page_block .views-row .field-name-field-client-picture img {
+      border-radius: 50px; }
+  .view-id-testimonial_page_block .views-row h2 {
+    display: none; }
+
+.node-type-locations .zone-content .region-content {
+  bottom: 0 !important;
+  margin-top: 20px; }
+
+.page-node-42 .zone-content .region-content {
+  position: relative; }
+.page-node-42 .zone-header2-wrapper {
+  background: url(/sites/zmedispa.com/files/immigration-physicals-vaccinations.jpg);
+  width: 100%;
+  background-position: center; }
+  .page-node-42 .zone-header2-wrapper .zone {
+    height: 300px; }
+
+.page-node-15 .zone-content .region-content {
+  position: relative; }
+.page-node-15 .zone-header2-wrapper {
+  background: url(/sites/zmedispa.com/files/cosmetic-procedures-slide.jpg);
+  width: 100%;
+  background-position: center; }
+  .page-node-15 .zone-header2-wrapper .zone {
+    height: 300px; }
+
+.page-node-14 .zone-content .region-content {
+  position: relative; }
+.page-node-14 .zone-header2-wrapper {
+  background: url(/sites/zmedispa.com/files/low-testosterone-slide.jpg);
+  width: 100%;
+  background-position: center; }
+  .page-node-14 .zone-header2-wrapper .zone {
+    height: 300px; }
+
+.page-node-13 .zone-content .region-content {
+  position: relative; }
+.page-node-13 .zone-header2-wrapper {
+  background: url(/sites/zmedispa.com/files/weight-mana-banner.jpg);
+  width: 100%;
+  background-position: center; }
+  .page-node-13 .zone-header2-wrapper .zone {
+    height: 300px; }
+
+.page-node-12 .zone-content .region-content {
+  position: relative; }
+.page-node-12 .zone-header2-wrapper {
+  background: url(/sites/zmedispa.com/files/telemedicine-slide.jpg);
+  width: 100%;
+  background-position: center; }
+  .page-node-12 .zone-header2-wrapper .zone {
+    height: 300px; }
+
+.page-node-11 .zone-content .region-content {
+  position: relative; }
+.page-node-11 .zone-header2-wrapper {
+  background: url(/sites/zmedispa.com/files/wellness-slide.jpg);
+  width: 100%;
+  background-position: center; }
+  .page-node-11 .zone-header2-wrapper .zone {
+    height: 300px; }
+
+.page-node-10 .zone-content .region-content {
+  position: relative; }
+.page-node-10 .zone-header2-wrapper {
+  background: url(/sites/zmedispa.com/files/menopause-slide.jpg);
+  width: 100%;
+  background-position: center; }
+  .page-node-10 .zone-header2-wrapper .zone {
+    height: 300px; }
+
+.page-node-9 .zone-content .region-content {
+  position: relative; }
+.page-node-9 .zone-header2-wrapper {
+  background: url(/sites/zmedispa.com/files/family-practice-slide.jpg);
+  width: 100%;
+  background-position: center; }
+  .page-node-9 .zone-header2-wrapper .zone {
+    height: 300px; }
+
+.node-type-page .zone-content .region-content {
+  position: relative; }
+.node-type-page .zone-header2-wrapper {
+  background: url(/sites/zmedispa.com/files/about-us-slide.jpg);
+  width: 100%;
+  background-position: center; }
+  .node-type-page .zone-header2-wrapper .zone {
+    height: 300px; }
+
+.page-node-6 .zone-content .region-content {
+  position: relative; }
+.page-node-6 .zone-header2-wrapper {
+  background: url(/sites/zmedispa.com/files/about-us-slide.jpg);
+  width: 100%;
+  background-position: center; }
+  .page-node-6 .zone-header2-wrapper .zone {
+    height: 300px; }
+
+.page-node-8 .zone-content .region-content {
+  position: relative; }
+.page-node-8 .zone-header2-wrapper {
+  background: url(/sites/zmedispa.com/files/about-us-slide.jpg);
+  width: 100%;
+  background-position: center; }
+  .page-node-8 .zone-header2-wrapper .zone {
+    height: 300px; }
+
+.page-testimonials .zone-content .region-content {
+  position: relative; }
+.page-testimonials .zone-header2-wrapper {
+  background: url(/sites/zmedispa.com/files/about-us-slide.jpg);
+  height: 300px;
+  width: 100%;
+  background-position: center; }
+  .page-testimonials .zone-header2-wrapper .zone {
+    height: 300px; }
+
+#region-content .field-name-body h2.content-subtitle {
+  font-weight: bold;
+  font-size: 20px; }
+
+#region-sidebar-second {
+  margin-bottom: 30px; }
+  #region-sidebar-second #block-views-testimonial-block-1 h2.block-title {
+    text-transform: lowercase;
+    font-size: 22px;
+    color: #015383; }
+  #region-sidebar-second #block-views-testimonial-block-1 .views-row .views-field-field-name {
+    padding-bottom: 0px;
+    color: #015383;
+    font-weight: bold; }
+  #region-sidebar-second #block-views-testimonial-block-1 .views-row .views-field-field-client-title {
+    padding-top: 0px;
+    font-style: italic;
+    color: #015383; }
+  #region-sidebar-second #block-views-testimonial-block-1 .views-row .views-field-body {
+    padding-top: 60px; }
+    #region-sidebar-second #block-views-testimonial-block-1 .views-row .views-field-body .field-content {
+      border-bottom: 3px solid #015383; }
+      #region-sidebar-second #block-views-testimonial-block-1 .views-row .views-field-body .field-content p {
+        color: #fff;
+        font-size: 12px;
+        line-height: 1.5; }
+
+#region-midzone3-first #webform-client-form-7 .webform-component--sub-title p {
+  text-align: center;
+  font-size: 22px;
+  text-transform: lowercase; }
+
+#zone-midzone3-wrapper .webform-client-form .webform-component--we-look-forward-to-hearing-from-you {
+  text-align: center;
+  font-size: 28px;
+  margin: 0 0 10px 0; }
+#zone-midzone3-wrapper .webform-client-form .form-actions {
+  float: right;
+  width: 100%;
+  margin: 0 0 10px 0; }
+#zone-midzone3-wrapper .webform-client-form .webform-submit {
+  width: 100%;
+  padding: 15px; }
+#zone-midzone3-wrapper .webform-client-form .webform-component--contact-info {
+  text-align: center;
+  width: 100%; }
+  #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper {
+    float: left;
+    width: 100%;
+    margin: 0 0 20px 0;
+    border-bottom: 2px dotted #10557E; }
+    #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper .webform-contact-phone-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper .webform-contact-fax-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper .webform-contact-address-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper .webform-contact-email-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper .webform-contact-phone-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper .webform-contact-fax-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper .webform-contact-address-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper .webform-contact-email-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper .webform-contact-phone-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper .webform-contact-fax-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper .webform-contact-address-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper .webform-contact-email-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper .webform-contact-phone-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper .webform-contact-fax-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper .webform-contact-address-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper .webform-contact-email-title {
+      font-size: 25px;
+      font-weight: bold;
+      color: #10557E; }
+    #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper .webform-contact-phone, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper .webform-contact-fax, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper .webform-contact-address, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper .webform-contact-email, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper .webform-contact-phone, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper .webform-contact-fax, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper .webform-contact-address, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper .webform-contact-email, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper .webform-contact-phone, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper .webform-contact-fax, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper .webform-contact-address, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper .webform-contact-email, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper .webform-contact-phone, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper .webform-contact-fax, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper .webform-contact-address, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper .webform-contact-email {
+      font-size: 19px;
+      color: #10557E;
+      font-style: italic;
+      margin: 0 0 15px 0; }
+#zone-midzone3-wrapper .webform-client-form .webform-component--contact-fields {
+  margin-bottom: 0; }
+  #zone-midzone3-wrapper .webform-client-form .webform-component--contact-fields input[type="text"], #zone-midzone3-wrapper .webform-client-form .webform-component--contact-fields input[type="email"], #zone-midzone3-wrapper .webform-client-form .webform-component--contact-fields textarea {
+    background: #e1e1e1;
+    padding: 16px;
+    width: 100%; }
+  #zone-midzone3-wrapper .webform-client-form .webform-component--contact-fields label {
+    padding: 8px 15px;
+    font-weight: 300;
+    font-size: 15px; }
+
+.zone-content .region-sidebar-second .block-testimonial-block-1 .views-row {
+  position: relative;
+  top: -40px; }
+.zone-content .region-sidebar-second .block-testimonial-block-1 .views-field-field-client-picture {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  top: 59px; }
+  .zone-content .region-sidebar-second .block-testimonial-block-1 .views-field-field-client-picture img {
+    border-radius: 62px;
+    border: 5px solid #C9C1C1; }
+.zone-content .region-sidebar-second .block-testimonial-block-1 .views-field-body, .zone-content .region-sidebar-second .block-testimonial-block-1 .views-field-field-name, .zone-content .region-sidebar-second .block-testimonial-block-1 .views-field-field-client-title {
+  background: #C9C1C1;
+  padding: 10px; }
+.zone-content .region-sidebar-second .block-testimonial-block-1 h2 {
+  text-align: center;
+  padding-top: 10px; }
+
+.block-views-services-block .views-row {
+  width: 100%;
+  float: left;
+  margin: 0;
+  height: auto; }
+  .block-views-services-block .views-row .views-field-view-node {
+    margin: 10px 0;
+    text-align: center; }
+    .block-views-services-block .views-row .views-field-view-node a {
+      background: #10557E;
+      padding: 10px;
+      border-radius: 2px;
+      color: #fff;
+      display: block; }
+  .block-views-services-block .views-row .views-field-field-service-image img {
+    width: 100%; }
+  .block-views-services-block .views-row .views-field-body {
+    position: relative;
+    bottom: 32px;
+    height: 47px; }
+  .block-views-services-block .views-row .views-field-field-teaser {
+    height: 36px;
+    margin: 10px 0 14px; }
+  .block-views-services-block .views-row .views-field-title {
+    background: #000;
+    padding: 10px; }
+    .block-views-services-block .views-row .views-field-title a {
+      color: #fff; }
+
+.zone-branding .region-menu {
+  margin: 10px; }
+  .zone-branding .region-menu .block-superfish li .sf-sub-indicator {
+    top: 0.9em; }
+  .zone-branding .region-menu .block-superfish select {
+    width: 100%;
+    padding: 15px; }
+
+.region-menu .block-superfish .menuparent ul {
+  background: #eaeaea;
+  padding: 0 !important;
+  border-radius: 2px; }
+  .region-menu .block-superfish .menuparent ul li {
+    margin: 0; }
+
+.zone-branding .block-superfish {
+  margin: 40px 0 0 0; }
+
+#region-user-second {
+  background-color: #DCB55A;
+  width: 100%; }
+  #region-user-second .block .content p {
+    font-size: 10px; }
+
+.node-type-locations .group-left .field-item {
+  background: #DCB55A;
+  text-align: center;
+  float: left;
+  margin: 0 0 10px 0;
+  width: 99%; }
+  .node-type-locations .group-left .field-item .field-name-field-employee-name {
+    font-weight: 400;
+    color: #fff;
+    float: left;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    background: #282828; }
+    .node-type-locations .group-left .field-item .field-name-field-employee-name .field-item {
+      margin: 10px;
+      background: transparent; }
+  .node-type-locations .group-left .field-item .field-name-field-employee-information {
+    width: 100%;
+    float: left;
+    font-size: 12px;
+    color: #fff;
+    margin: 0 0 10px 0;
+    text-shadow: 1px 1px 1px #5A5A5A;
+    border-radius: 0; }
+    .node-type-locations .group-left .field-item .field-name-field-employee-information .field-item {
+      background: transparent; }
+  .node-type-locations .group-left .field-item .field-name-field-employee-picture {
+    width: 100%; }
+    .node-type-locations .group-left .field-item .field-name-field-employee-picture .field-item {
+      background: transparent;
+      width: 100%; }
+    .node-type-locations .group-left .field-item .field-name-field-employee-picture img {
+      margin: 10px;
+      border-radius: 101px;
+      border: 10px solid #fafafa;
+      box-shadow: 0px 0px 2px #545454; }
+
+.node-type-locations .zone-content .region-content {
+  position: relative;
+  bottom: 0; }
+  .node-type-locations .zone-content .region-content #page-title {
+    font-size: 25px;
+    color: #000;
+    text-shadow: 0 0 8px #C2C2C2;
+    margin: 10px; }
+  .node-type-locations .zone-content .region-content .group-right .field-type-office-hours, .node-type-locations .zone-content .region-content .group-right .field-name-field-locations-info {
+    padding: 0;
+    background: #DCB55A;
+    color: #fff;
+    margin: 10px 0;
+    border-radius: 3px; }
+    .node-type-locations .zone-content .region-content .group-right .field-type-office-hours .region, .node-type-locations .zone-content .region-content .group-right .field-name-field-locations-info .region {
+      margin: 0; }
+    .node-type-locations .zone-content .region-content .group-right .field-type-office-hours .field-label, .node-type-locations .zone-content .region-content .group-right .field-name-field-locations-info .field-label {
+      font-weight: bold;
+      padding: 10px;
+      background: #282828;
+      border-radius: 3px 3px 0 0;
+      color: #fff; }
+    .node-type-locations .zone-content .region-content .group-right .field-type-office-hours .field-items, .node-type-locations .zone-content .region-content .group-right .field-name-field-locations-info .field-items {
+      text-shadow: 1px 1px 1px #5A5A5A;
+      padding: 10px;
+      font-weight: 500; }
+
+.node-locations .group-left {
+  width: 100%; }
+.node-locations .group-right {
+  width: 100%; }
+
+.block-views-clinic-slideshow-block {
+  z-index: 0;
+  position: relative; }
+  .block-views-clinic-slideshow-block .views-row a.active {
+    width: 100%;
+    display: block;
+    text-align: center; }
+
+.zone-content #block-views-doctors-list-block .view-doctors-list {
+  margin-top: 40px; }
+  .zone-content #block-views-doctors-list-block .view-doctors-list .views-row {
+    background: #DCB55A;
+    margin: 0 10px 40px 0;
+    border-radius: 5px;
+    float: left;
+    text-align: left; }
+    .zone-content #block-views-doctors-list-block .view-doctors-list .views-row .views-field-field-doctor-name {
+      font-weight: 400;
+      color: #fff;
+      float: left;
+      width: 100%;
+      border-radius: 5px 5px 0 0;
+      background: #282828; }
+      .zone-content #block-views-doctors-list-block .view-doctors-list .views-row .views-field-field-doctor-name .field-content {
+        margin: 10px; }
+    .zone-content #block-views-doctors-list-block .view-doctors-list .views-row .views-field-field-doctor-picture {
+      width: 100%;
+      text-align: center;
+      float: left; }
+      .zone-content #block-views-doctors-list-block .view-doctors-list .views-row .views-field-field-doctor-picture img {
+        margin: 10px;
+        border-radius: 101px;
+        border: 10px solid #fafafa;
+        box-shadow: 0px 0px 2px #545454; }
+    .zone-content #block-views-doctors-list-block .view-doctors-list .views-row .views-field-field-doctor-information {
+      width: auto;
+      float: right;
+      margin: 10px;
+      font-size: 12px;
+      color: #fff;
+      text-shadow: 1px 1px 1px #5A5A5A; }
+.zone-content .block-views-clinic-locations-block .view-clinic-locations .views-row {
+  float: left;
+  width: 100%;
+  height: 410px;
+  background-color: #DCB55A;
+  padding: 46px 0;
+  margin: 5px 0;
+  border-radius: 4px;
+  box-shadow: 0 0 10px #eaeaea; }
+  .zone-content .block-views-clinic-locations-block .view-clinic-locations .views-row .views-field-address {
+    text-align: center; }
+  .zone-content .block-views-clinic-locations-block .view-clinic-locations .views-row .views-field-street, .zone-content .block-views-clinic-locations-block .view-clinic-locations .views-row .views-field-postal-code, .zone-content .block-views-clinic-locations-block .view-clinic-locations .views-row .views-field-phone, .zone-content .block-views-clinic-locations-block .view-clinic-locations .views-row .views-field-fax, .zone-content .block-views-clinic-locations-block .view-clinic-locations .views-row .views-field-email, .zone-content .block-views-clinic-locations-block .view-clinic-locations .views-row .views-field-address {
+    text-align: center; }
+  .zone-content .block-views-clinic-locations-block .view-clinic-locations .views-row .views-field-view-node {
+    text-align: center;
+    margin: 20px 0; }
+    .zone-content .block-views-clinic-locations-block .view-clinic-locations .views-row .views-field-view-node a {
+      background: #fff;
+      padding: 10px;
+      border-radius: 2px;
+      color: #5C4611;
+      font-weight: bold; }
+  .zone-content .block-views-clinic-locations-block .view-clinic-locations .views-row .views-field-title {
+    text-align: center;
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 15px; }
+  .zone-content .block-views-clinic-locations-block .view-clinic-locations .views-row .views-field-field-main-clinic-image {
+    width: 100%;
+    text-align: center; }
+    .zone-content .block-views-clinic-locations-block .view-clinic-locations .views-row .views-field-field-main-clinic-image img {
+      border-radius: 101px;
+      border: 10px solid #FFFFFF;
+      box-shadow: 0px 0px 1px #474747; }
+
+#zone-postscript {
+  margin-bottom: 10px; }
+  #zone-postscript .block-block-11 {
+    padding: 15px 0; }
+    #zone-postscript .block-block-11 p {
+      text-align: center;
+      color: #fff;
+      margin: 0; }
+
+.block-webform-client-block-20 {
+  background: #c9c1c1;
+  padding: 10px;
+  margin: 10px 0; }
+  .block-webform-client-block-20 .form-textarea-wrapper {
+    width: 100%; }
+  .block-webform-client-block-20 h2 {
+    color: #10557E;
+    font-size: 22px;
+    text-align: center; }
+  .block-webform-client-block-20 label {
+    padding: 12px 12px;
+    font-weight: 300; }
+  .block-webform-client-block-20 input {
+    background: #e1e1e1;
+    padding: 20px;
+    width: 100%; }

@@ -1,0 +1,83 @@
+/* This file will hold styles that are loaded using the same media query as the normal grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
+.block-views-services-block .views-row {
+  width: 293px; }
+
+.zone-content .block-views-clinic-locations-block .view-clinic-locations .views-row {
+  float: left;
+  width: 283px;
+  height: 450px;
+  background-color: #DCB55A;
+  padding: 20px 10px;
+  margin: 5px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px #eaeaea; }
+
+.node-type-locations .group-left .field-items {
+  margin: 0 0 10px 0; }
+.node-type-locations .field-name-field-employee-name {
+  font-weight: 400;
+  color: #10557E; }
+.node-type-locations .field-name-field-employee-picture img {
+  border-radius: 101px;
+  border: 10px solid #D9B359;
+  box-shadow: 0px 0px 22px #B6B4B4; }
+
+.node-type-locations .group-left .field-items .field-name-field-employee-information {
+  margin: 10px 21px;
+  width: 68%; }
+
+.field-name-field-employee-information
+.node-type-locations .zone-content .region-content {
+  margin-top: 20px; }
+  .field-name-field-employee-information
+  .node-type-locations .zone-content .region-content .group-right .field-name-field-locations-info, .field-name-field-employee-information
+  .node-type-locations .zone-content .region-content .group-right .field-type-office-hours {
+    font-size: 11px; }
+
+#zone-midzone3-wrapper .webform-client-form .webform-component--we-look-forward-to-hearing-from-you {
+  text-align: center;
+  font-size: 28px;
+  margin: 0 0 10px 0; }
+#zone-midzone3-wrapper .webform-client-form .form-actions {
+  float: right;
+  width: 50%;
+  margin: 0 0 10px 0; }
+#zone-midzone3-wrapper .webform-client-form .webform-submit {
+  width: 100%;
+  padding: 15px; }
+#zone-midzone3-wrapper .webform-client-form .webform-component--contact-info {
+  float: left;
+  width: 50%; }
+  #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper {
+    float: left;
+    width: 50%;
+    margin: 0 0 60px 0; }
+    #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper .webform-contact-phone-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper .webform-contact-fax-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper .webform-contact-address-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper .webform-contact-email-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper .webform-contact-phone-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper .webform-contact-fax-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper .webform-contact-address-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper .webform-contact-email-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper .webform-contact-phone-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper .webform-contact-fax-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper .webform-contact-address-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper .webform-contact-email-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper .webform-contact-phone-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper .webform-contact-fax-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper .webform-contact-address-title, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper .webform-contact-email-title {
+      font-size: 25px;
+      font-weight: bold;
+      color: #10557E; }
+    #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper .webform-contact-phone, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper .webform-contact-fax, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper .webform-contact-address, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-phone-wrapper .webform-contact-email, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper .webform-contact-phone, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper .webform-contact-fax, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper .webform-contact-address, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-address-wrapper .webform-contact-email, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper .webform-contact-phone, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper .webform-contact-fax, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper .webform-contact-address, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-fax-wrapper .webform-contact-email, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper .webform-contact-phone, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper .webform-contact-fax, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper .webform-contact-address, #zone-midzone3-wrapper .webform-client-form .webform-component--contact-info .webform-contact-email-wrapper .webform-contact-email {
+      font-size: 15px;
+      color: #10557E;
+      font-style: italic; }
+#zone-midzone3-wrapper .webform-client-form .webform-component--contact-fields {
+  margin-bottom: 0; }
+  #zone-midzone3-wrapper .webform-client-form .webform-component--contact-fields input[type="text"], #zone-midzone3-wrapper .webform-client-form .webform-component--contact-fields input[type="email"], #zone-midzone3-wrapper .webform-client-form .webform-component--contact-fields textarea {
+    background: #e1e1e1;
+    padding: 16px;
+    width: 100%; }
+  #zone-midzone3-wrapper .webform-client-form .webform-component--contact-fields label {
+    padding: 8px 15px;
+    font-weight: 300;
+    font-size: 15px; }
+
+.zone-branding .block-superfish {
+  margin: 60px 0 0 0; }
+
+h1#page-title {
+  font-size: 41px; }
+
+#region-user-second {
+  width: initial; }

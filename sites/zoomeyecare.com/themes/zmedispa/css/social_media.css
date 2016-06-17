@@ -1,0 +1,61 @@
+/* Overline From Left */
+.social_media-sprite, a.twitter-button, a.twitter-button:hover, a.facebook-button, a.facebook-button:hover, a.gplus-button, a.gplus-button:hover, a.youtube-button, a.youtube-button:hover, a.yelp-button, a.yelp-button:hover, a.pintrest-button, a.pintrest-button:hover {
+  background-image: url('../images/social_media-s01b265ae7c.png');
+  background-repeat: no-repeat; }
+
+a.social-button {
+  float: left; }
+
+a.twitter-button {
+  background-position: 0 -238px;
+  height: 34px;
+  width: 34px;
+  text-indent: -9999px;
+  margin: 4px 5px; }
+  a.twitter-button:hover {
+    background-position: 0 -204px; }
+
+a.facebook-button {
+  background-position: 0 -34px;
+  height: 34px;
+  width: 34px;
+  text-indent: -9999px;
+  margin: 4px 3px; }
+  a.facebook-button:hover {
+    background-position: 0 0; }
+
+a.gplus-button {
+  background-position: 0 -102px;
+  height: 34px;
+  width: 34px;
+  text-indent: -9999px;
+  margin: 4px 3px; }
+  a.gplus-button:hover {
+    background-position: 0 -68px; }
+
+a.youtube-button {
+  background-position: 0 -374px;
+  height: 34px;
+  width: 34px;
+  text-indent: -9999px;
+  margin: 4px 3px; }
+  a.youtube-button:hover {
+    background-position: 0 -340px; }
+
+a.yelp-button {
+  background-position: 0 -306px;
+  height: 34px;
+  width: 34px;
+  text-indent: -9999px;
+  margin: 4px 3px; }
+  a.yelp-button:hover {
+    background-position: 0 -272px; }
+
+a.pintrest-button {
+  background-position: 0 -170px;
+  height: 34px;
+  width: 34px;
+  text-indent: -9999px;
+  margin: 4px 3px; }
+  a.pintrest-button:hover {
+    background-position: 0 -136px; }

@@ -1,0 +1,48 @@
+//Include Hover Animations base
+@import "hover/scss/options";
+@import "hover/scss/mixins";
+@import "hover/scss/hacks";
+
+//Include dresired Hover Animations effects to be used as mixins.
+@import "hover/scss/effects/border-transitions/overline-from-left";
+//@import "hover/scss/effects/2d-transitions/float";
+
+@mixin clearfix {
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+  &:before,
+  &.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+  }
+
+  &:after {
+    clear: both;
+  }
+
+/**
+* For IE 6/7 only
+* Include this rule to trigger hasLayout and contain floats.
+*/
+  *zoom: 1;
+}
+
+@mixin rounded-corners($radius) {
+  -moz-border-radius: $radius;
+  -webkit-border-radius: $radius;
+  -khtml-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin rounded($side, $radius) {
+  border-#{$side}-radius: $radius;
+  -moz-border-radius-#{$side}: $radius;
+  -webkit-border-#{$side}-radius: $radius;
+}
